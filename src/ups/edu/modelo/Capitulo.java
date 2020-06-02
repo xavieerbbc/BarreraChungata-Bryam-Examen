@@ -16,6 +16,7 @@ public class Capitulo implements Serializable {
 
 	@Id
 	private int codigo;
+	private int numero;
 	
 	
 	public Capitulo() {
