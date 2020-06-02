@@ -8,6 +8,10 @@ public abstract class DAOFactory {
 		return factory;
 	}
 	
+	public abstract AutorDAO getAutorDAO();
 	
+	public abstract LibroDAO getLibroDAO();
+	
+	public abstract CapituloDAO getCapituloDAO();
 	
 }
